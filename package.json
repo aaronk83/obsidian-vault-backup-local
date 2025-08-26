@@ -1,0 +1,27 @@
+{
+  "name": "auto-vault-backup",
+  "version": "1.0.0",
+  "description": "Automatically backs up your entire vault to a zip file when you close the vault window.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+    "version": "node version-bump.mjs && git add manifest.json versions.json"
+  },
+  "keywords": ["obsidian", "plugin", "backup", "vault"],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
+    "@typescript-eslint/parser": "^5.2.0",
+    "builtin-modules": "^3.2.0",
+    "esbuild": "0.13.12",
+    "obsidian": "^0.12.0",
+    "tslib": "2.3.1",
+    "typescript": "4.9.5"
+  },
+  "dependencies": {
+    "jszip": "^3.10.1"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "auto-vault-backup",
+  "name": "Auto Vault Backup",
+  "version": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "description": "Automatically backs up your entire vault to a zip file when you close the vault window.",
+  "author": "Your Name",
+  "authorUrl": "",
+  "isDesktopOnly": true,
+  "dependencies": {
+    "jszip": "^3.10.1"
+  }
+}
