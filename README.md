@@ -1,4 +1,5 @@
 # Auto Vault Backup Plugin for Obsidian
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Automatically backs up your entire Obsidian vault to a zip file when you close the vault window. This plugin ensures you never lose your valuable notes and attachments.
 
