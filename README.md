@@ -142,9 +142,10 @@ auto-vault-backup/
 - Consider excluding plugins and settings if not needed
 - Backup creation happens in the background and won't block Obsidian
 
-## License
+## 🪪 License
 
-MIT License - see LICENSE file for details.
+This project is licensed under the [MIT License](./LICENSE).  
+You’re free to use, modify, and distribute this code for personal or commercial purposes, as long as you include attribution to **Aaron Kagan**.
 
 ## Contributing
 
