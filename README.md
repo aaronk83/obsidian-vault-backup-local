@@ -146,6 +146,7 @@ auto-vault-backup/
 
 This project is licensed under the [MIT License](./LICENSE).  
 You’re free to use, modify, and distribute this code for personal or commercial purposes, as long as you include attribution to **Aaron Kagan**.
+If you use this plugin as a base or reference for your own, please include a credit or link back to this repository.
 
 ## Contributing
 
